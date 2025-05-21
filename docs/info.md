@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Implemented is a full adder that uses inputs from the user and performs the correct logic to output the sum on LED's. When adding bits the sum LED (S) will light up when only one of the switches are high. If two switches are high the carry out LED (Cout) will be lit. If all three switches are high, then both the sum and carry out LED's will light up.
 
 ## How to test
 
-Explain how to use your project
+To test, flip any switches one through three and observe the output.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Used in this project is and 8-bit dip switch, 5 LED's, 2 XOR gates, 2 AND gates, and 1 OR gate.
