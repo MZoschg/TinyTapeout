@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Wokwi Project Template
+# Tiny Tapeout Tutorial
 
 - [Read the documentation for project](docs/info.md)
 
@@ -15,6 +15,10 @@ To learn more and get started, visit https://tinytapeout.com.
 Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.
 
 The GitHub action will automatically fetch the digital netlist from Wokwi and build the ASIC files.
+
+## Full Adder
+
+In this tutorial we implimented a full adder using the correct logic gates fed by inputs from a user. The users inputs will be displayed via LED's (A, B, Cin). The circuit will then output the correct sum and display to the user also via LED's (S, Cout)._
 
 ## Enable GitHub actions to build the results page
 
